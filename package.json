@@ -1,0 +1,30 @@
+{
+  "name": "swagger-ui-plugin-test-report",
+  "version": "1.0.0",
+  "description": "Swagger-ui plugin to fetch and display jUnit report to display on each operation.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src/ --out-dir dist/",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeApp/swagger-ui-plugin-test-report.git"
+  },
+  "keywords": [
+    "swagger-ui",
+    "plugins"
+  ],
+  "author": "Damien Villeneuve <d.villeneuve@beapp.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeApp/swagger-ui-plugin-test-report/issues"
+  },
+  "homepage": "https://github.com/BeApp/swagger-ui-plugin-test-report#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "react": "^17.0.2"
+  }
+}

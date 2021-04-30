@@ -1,0 +1,27 @@
+# OS junk files
+.DS_Store
+[Tt]humbs.db
+
+# Temp files
+*~
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Visual Studio Code
+.vscode
+
+# Gradle
+build
+.gradle
+
+# Node
+node_modules
+
+# Firebase cache
+.firebase/
+
+dist
+*.log
+build-time
