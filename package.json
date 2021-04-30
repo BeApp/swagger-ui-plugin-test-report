@@ -4,7 +4,7 @@
   "description": "Swagger-ui plugin to fetch and display jUnit report to display on each operation.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src/ --out-dir dist/",
+    "build": "babel src/ --out-dir dist/ && cp src/tests-report-plugin.css dist/tests-report-plugin.css",
     "test": "jest"
   },
   "repository": {
@@ -26,5 +26,8 @@
     "@babel/preset-env": "^7.14.0",
     "@babel/preset-react": "^7.13.13",
     "react": "^17.0.2"
+  },
+  "dependencies": {
+    "reselect": "^4.0.0"
   }
 }
